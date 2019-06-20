@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабараторная работа 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/custom.js" async="async"></script>
+
+</head>
+<body>
+
+<div class="site w-100 h-100 bg-white">
+    <div class="header w-100 d-sm-flex flex-row justify-content-center">
+        <div class="top_head d-flex justify-content-center flex-row align-items-center">
+            <div class="navBut">
+                <div class="btn" id="But1">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-center align-items-center" id="ButPress1"></div>
+                        <div class="text h-100 d-flex justify-content-center align-items-center"><b>Blog</b></div>
+                    </div>
+                </div>
+                <div class="btn" id="But2">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-center align-items-center" id="ButPress2"></div>
+                        <div class="text h-100 d-flex justify-content-center align-items-center"><b>Jobs</b></div>
+                    </div>
+                </div>
+                <div class="btn" id="But3">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-center align-items-center" id="ButPress3"></div>
+                        <div class="text h-100 d-flex justify-content-center align-items-center"><b>Support</b></div>
+                    </div>
+                </div>
+                <div class="btn" id="But4">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-center align-items-center" id="ButPress4"></div>
+                        <div class="text h-100 d-flex justify-content-center align-items-center"><b>Arabic</b></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav justify-content-sm-end">
+                <a class="nav-link h-100 d-flex justify-content-center align-items-center" href="http://lab3/" id="Log1">
+                    <img class="float-left" src="images/Link/face.png" alt="">
+                </a>
+                <a class="nav-link h-100 d-flex justify-content-center align-items-center" href="http://lab3/" id="Log2">
+                    <img class="float-left" src="images/Link/twit.png" alt="">
+                </a>
+                <a class="nav-link h-100 d-flex justify-content-center align-items-center" href="http://lab3/" id="Log3">
+                    <img class="float-left" src="images/Link/inst.png" alt="">
+                </a>
+                <a class="nav-link h-100 d-flex justify-content-center align-items-center" href="http://lab3/" id="last">
+                    <img class="float-left" src="images/Link/g+.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="headLogo w-100 bg-white d-sm-flex justify-content-center">
+        <div class="Logo">
+            <img class="Log img-fluid rounded float-left" src="images/Logo/logo.png" alt="">
+        </div>
+        <div class="headBut_zone justify-content-center">
+            <div class="headBut d-sm-flex">
+                <div class="btn">
+                    <div id="headBut1"></div>
+                </div>
+                <div class="btn">
+                    <div id="headBut2"></div>
+                </div>
+                <div class="btn">
+                    <div id="headBut3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top_mid w-100 bg-white d-sm-flex justify-content-flex-start">
+        <div class="top_mid_content h-100 bg-white d-sm-flex">
+            <div class="top_mid_text d-flex justify-content-center align-items-center" id="tmtFirst">
+                <b>HOME</b>
+            </div>
+            <div class="top_mid_text d-flex justify-content-center align-items-center">
+                <b>What about ISAMA</b>
+            </div>
+            <div class="top_mid_text d-flex justify-content-center align-items-center">
+                <b>What we do?</b>
+            </div>
+            <div class="top_mid_text d-flex justify-content-center align-items-center">
+                <b>Our Projects</b>
+            </div>
+            <div class="top_mid_text d-flex justify-content-center align-items-center">
+                <b>Excellent Team</b>
+            </div>
+            <div class="top_mid_text d-flex justify-content-center align-items-center" id="tmtLast">
+                <b>Contact</b>
+            </div>
+        </div>
+        <nav class="navbar search_zone h-100 d-flex justify-content-center align-items-center">
+            <form class="form-inline">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text" id="search"></div>
+                    </div>
+                    <input type="text" class="form-control" id="textBox" placeholder="Type your search words">
+                </div>
+            </form>
+        </nav>
+
+    </div>
+    <div class="middle w-100">
+        <div class="mid_content_zone w-100 d-flex justify-content-center align-items-center flex-column">
+            <div class="mid_content w-100 d-flex justify-content-center align-items-center flex-column">
+                <div class="midText d-flex flex-column position-relative">
+                    <p class="text-white" id="midText1"><b>LET’S DRAW SOME ARTS</b></p>
+                    <p class="text-white" id="midText2">make your business much better</p>
+                </div>
+                <div class="midBox d-flex bg-dark position-relative">
+                    <div id="Box1">
+                        <div id="Box1_1">
+
+                        </div>
+                        <div id="Box1_2">
+
+                        </div>
+                    </div>
+                    <div id="Box2">
+                        <div id="Box2_1">
+                        </div>
+                        <div id="Box2_2">
+                        </div>
+                    </div>
+                    <div id="Box3"></div>
+                </div>
+            </div>
+            <div class="mid_contentText bg-white w-100 d-flex flex-column justify-content-center align-items-center">
+                <div class="mid_contentText_zone d-flex flex-row h-100 bg-white">
+                    <div class="d-flex w-50 h-100" id="contentTextBox1">
+                        <img src="images/Mid/Lampa.png" alt="">
+                        <div>
+                            <h2>What about ISAMA</h2>
+                            <br>
+                            ISAMA is a marketing foundation located in Riyadh built on the talent of creation that leads to a modern concept of professionalism. At ISAMA we believe even if you are good at what you do, you have a great product or you provide an excellent service. We still can present you a little better to the world, creating your full identity, provides you with your marketing plans, design your website, print your publications, design your logo’s and offices. Simply we give your business the perfect image.
+                        </div>
+                    </div>
+                    <div class="d-flex w-50 h-100" id="contentTextBox2">
+                        <img src="images/Mid/Derevo.png" alt="">
+                        <div>
+                            <h2>Why we exist</h2>
+                            <br>
+                            Reaching customer satisfaction through providing them with cutting-edge technologies that give clients access to a wide range of tools, ensuring efficient and results-oriented communication solutions, which grant them a special character that distinguishes them from the others in the business.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class ="d-flex justify-content-center w-100 bg-white" id="ovalLine">
+        <div id="oval"></div>
+    </div>
+    <div class="meshen_zone w-100 bg-white d-flex justify-content-center align-items-center flex-row">
+        <div class="meshen h-100 d-flex justify-content-center align-items-center flex-row position-relative">
+            <img src="images/Mid/meshen.png" alt="">
+            <div>
+                <h1>What we do ?</h1>
+                Everything you need to do business intelligence right.
+            </div>
+        </div>
+    </div>
+    <div class="content_mesh_zone w-100 bg-white d-flex justify-content-center align-items-center flex-column">
+        <div id="block1">
+            <div id="block1_1">
+                <img src="images/Meshen/block1_1.png" alt="">
+                <div>
+                    <h2>Web Design & Development</h2>
+                    ISAMA Pvt. Ltd. designs and develops creative websites utilizing the latest technologies.
+                </div>
+            </div>
+            <div id="block1_2">
+                <img src="images/Meshen/block1_2.png" alt="">
+                <div>
+                    <h2>Mobile Applications</h2>
+                    Our Developers helps you to Design, Develop & Distribute Mobile Applications - Smarter & Faster.
+                </div>
+            </div>
+        </div>
+        <div id="block2">
+            <div id="block2_1">
+                <img src="images/Meshen/block2_1.png" alt="">
+                <div>
+                    <h2>Software Solutions</h2>
+                    with our software for professional services and consulting firms. Grow your revenue and profit margins by assigning the right people to the right projects at the right time.
+                </div>
+            </div>
+            <div id="block2_2">
+                <img src="images/Meshen/block2_2.png" alt="">
+                <div>
+                    <h2>Interior Design</h2>
+                    We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Concierge service, all of which are executed with beautiful, custom-tailored results.
+                </div>
+            </div>
+        </div>
+        <div id="block3">
+            <div id="block3_1">
+                <img src="images/Meshen/block3_1.png" alt="">
+                <div>
+                    <h2>Branding</h2>
+                    We have our forte in advertising and Brand establishment. We create identities for the clients product and services in the target market.
+                </div>
+            </div>
+            <div id="block3_2">
+                <img src="images/Meshen/block3_2.png" alt="">
+                <div>
+                    <h2>SEO & Web Marketing Services</h2>
+                    We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Concierge service, all of which are executed with beautiful, custom-tailored results.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="projects_zone w-100 d-flex flex-column align-items-center">
+        <div class="projectText d-flex justify-content-center align-items-center flex-row">
+            <img src="images/Project/Colba.png" alt="">
+            <div>
+                <h1>Our Projects</h1>
+                <p>Some of our awesome work Proud of doing</p>
+                great works for our clients
+            </div>
+        </div>
+        <div class="projectBut position-relative d-flex justify-content-center align-items-center flex-row">
+            <div>
+                <b>All</b>
+            </div>
+            <div>
+               <b>Mobile Apps</b>
+            </div>
+            <div>
+                <b>Identities</b>
+            </div>
+            <div>
+                <b>Interior Design</b>
+            </div>
+            <div>
+                <b>UI/UX</b>
+            </div>
+        </div>
+        <div class="projectWindow position-relative d-flex justify-content-center align-items-center flex-column">
+            <div class="group1 w-100 h-50 d-flex justify-content-center align-items-center flex-row">
+                <div class="Window d-flex flex-column bg-white">
+                    <img src="images/Windows/W1.png" alt="">
+                    <div id="W1">
+                        <div class="link">
+
+                        </div>
+                        <div class="more">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Window d-flex flex-column bg-white">
+                    <img src="images/Windows/W2.png" alt="">
+                    <div id="W2">
+                        <div class="link">
+
+                        </div>
+                        <div class="more">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Window d-flex flex-column bg-white">
+                    <img src="images/Windows/W3.png" alt="">
+                    <div id="W3">
+                        <div class="link">
+
+                        </div>
+                        <div class="more">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Window d-flex flex-column bg-white">
+                    <img src="images/Windows/W4.png" alt="">
+                    <div id="W4">
+                        <div class="link">
+
+                        </div>
+                        <div class="more">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group2 w-100 h-50 d-flex justify-content-center align-items-center flex-row">
+                <div class="Window d-flex flex-column bg-white">
+                    <img src="images/Windows/W5.png" alt="">
+                    <div id="W5">
+                        <div class="link">
+
+                        </div>
+                        <div class="more">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Window d-flex flex-column bg-white">
+                    <img src="images/Windows/W6.png" alt="">
+                    <div id="W6">
+                        <div class="link">
+
+                        </div>
+                        <div class="more">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Window d-flex flex-column bg-white">
+                    <img src="images/Windows/W7.png" alt="">
+                    <div id="W7">
+                        <div class="link">
+
+                        </div>
+                        <div class="more">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Window d-flex flex-column bg-white">
+                    <img src="images/Windows/W8.png" alt="">
+                    <div id="W8">
+                        <div class="link">
+
+                        </div>
+                        <div class="more">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map_zone w-100 d-flex flex-row justify-content-center">
+        <div class="map1 w-100 h-100 d-flex flex-row justify-content-center align-items-center">
+            <div id="mapBut1">
+
+            </div>
+            <div id="mapBut2"></div>
+            <div id="mapBut3"></div>
+        </div>
+
+    </div>
+    <div class="footer_zone w-100 d-flex flex-row justify-content-center align-items-center">
+        <div class="footer">
+            <div class="fTop d-flex flex-row justify-content-center align-items-center">
+                <div class="left w-50 d-flex flex-row align-content-center">
+                    <div id="logo1"></div>
+                    <div id="logo2"></div>
+                    <div id="logo3"></div>
+                    <div id="logo4"></div>
+                </div>
+                <div class="right w-50 d-flex flex-row align-content-center">
+                    <div>
+                        <img src="images/footer/search.png" alt="">
+                        <form action="">
+                            <input type="text" class="inputText" placeholder="Enter your email for out newsletter">
+                        </form>
+                        <div class="join d-flex justify-content-center align-items-center">Join</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fBot d-flex flex-row justify-content-center align-items-center">
+                <div class="left1 w-50 h-100 d-flex align-items-center">
+                    <p>© Copyright 2014 - ISAMA for information technology</p>
+                </div>
+                <div class="right1 w-50 h-100 d-flex align-items-center">
+                    <div class="fBut w-100 d-flex flex-row position-relative">
+                        <div>
+                            <p>Blog</p>
+                            <img src="images/footer/point.png" alt="">
+                        </div>
+                        <div>
+                            <p>Job</p>
+                            <img src="images/footer/point.png" alt="">
+                        </div>
+                        <div>
+                            <p>Terms of Service</p>
+                            <img src="images/footer/point.png" alt="">
+                        </div>
+                        <div>
+                            <p>Privacy</p>
+                            <img src="images/footer/point.png" alt="">
+                        </div>
+                        <div>
+                            <p>Policy</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
